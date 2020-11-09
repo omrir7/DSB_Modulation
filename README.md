@@ -11,8 +11,11 @@ Modulator Description:
 
 
 v_m - Data Signal (m for message)
+
 v_c - Carrier Signal (cosine with very high frequency)
+
 v_mod - modulated Signal
+
 kAM - modulation index
 
 Model Flow:
