@@ -12,7 +12,7 @@ Modulator Description:
 
 v_m - Data Signal (m for message)
 
-v_c - Carrier Signal (cosine with very high frequency)
+v_c - Carrier Signal (cosinus with very high frequency)
 
 v_mod - modulated Signal
 
