@@ -132,7 +132,7 @@ B=2*f_2;
 
 %sinc in the freq domain is rect width B , cos is shifting the rect from 0 to fc
 %BPF_t=B*sinc(B*t).*cos(2*pi*f_c*t);           
-BPF_t=4*pi*sin(t*2*f_2*pi)./(pi*t).*cos(2*pi*t*f_c)/1.07;
+BPF_t=4*pi*sin(t*2*f_2*pi)./(pi*t).*cos(2*pi*t*f_c);
 BPF_f=fftshift(fft(BPF_t)/length(t));       
 
 %Ploting the Band Pass Filter - not ideal rect but fast ascend and fast descend
